@@ -1,0 +1,172 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	font: 16px/1.63 'Rubik', sans-serif;
+	font-weight: 300;
+	color: #465a64;
+	background-color: #fff;
+	min-width: 320px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+
+p, ul, ol {
+	margin: 0 0 1em;
+}
+
+.header {
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+	line-height: 1.2;
+	margin: 0 0 .5em;
+	color: #282b2f;
+}
+
+.tel a {
+	text-decoration: none;
+	font-weight: 500;
+	font-style: normal;
+	color: #282b2f;
+}
+
+.tel a:hover {
+	color:  #009688;
+}
+
+a {
+	color: #1976d2;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.nav a {
+	font-weight: 500;
+	color: #282b2f;
+	font-style: normal;
+}
+
+.breadcrumb a {
+	font-style: normal;
+	color: inherit;
+	text-decoration: none;
+}
+
+.breadcrumb a:hover, .list-soc a:hover, .nav a:hover {
+	color: #009688;
+}
+
+.read-more {
+	font-weight: 500;
+	color: #009688;
+	font-style: normal;
+}
+
+/* .main-article h1 {
+	font-size: 44px;
+	margin-bottom: 38px;
+}
+
+.main-article h2 {
+	font-size: 36px;
+}
+
+.main-article h2, .main-article h3 {
+	margin-bottom: 36px;
+}
+
+.main-article h3, .card h3, .section-form h3 {
+	font-size: 28px;
+}
+
+.main-article h4 {
+	font-size: 20px;
+	font-weight: normal;
+	font-style: italic;
+	color: #546e7a;
+	margin-bottom: 28px;
+}
+
+.section-form h3, .card h3 {
+	margin-bottom: 38px;
+}
+
+.card h5 {
+	font-size: 22px;
+} */
+
+.main-article h1 {
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+.main-article h2 {
+	font-size: 22px;
+}
+
+.main-article h2, .main-article h3 {
+	margin-bottom: 20px;
+}
+
+.main-article h3, .card h3, .section-form h3, .card h5 {
+	font-size: 18px;
+}
+
+.main-article h4 {
+	font-size: 16px;
+	font-weight: normal;
+	font-style: italic;
+	color: #546e7a;
+	margin-bottom: 28px;
+}
+
+.section-form h3, .card h3 {
+	margin-bottom: 18px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+time {
+	color: #bdc6ca;
+	font-size: 14px;
+}
+
+.form-control {
+	font-family: inherit;
+	color: inherit;
+	font-weight: inherit;
+	font-size: 16px;
+}
+
+.button-submit, .button {
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.footer p {
+	font-size: 14px;
+	color: #282b2f;
+}
+
+.list-soc {
+	font-size: 20px;
+}
